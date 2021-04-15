@@ -1,0 +1,6 @@
+framework module SKAsyncGLViewController {
+  umbrella header "SKAsyncGLViewController-umbrella.h"
+
+  export *
+  module * { export * }
+}

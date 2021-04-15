@@ -1,0 +1,835 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D273C1DFE54A67329293AEEBDFC8FB1 /* RDRIntermediateTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 4901DB2EB48C21C0ABE6AFAD564C0449 /* RDRIntermediateTarget.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		17B6B0A020AD6152AC0DEB18B76C53A7 /* SKAsyncGLViewController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DB92B360A812626515265548B1C539FA /* SKAsyncGLViewController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		262FBBE7E87E439A0B8DAA9E8692DB97 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF6C05A01AB2596C35C75D89F8613D /* Foundation.framework */; };
+		36BBA81021BAB79F9B4267E1B556CC74 /* SKBaseAsyncGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6291FE317EDD8CCA7101AD5CD3D591B /* SKBaseAsyncGLViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E133688BA37FCDE679E98A11E3F4D54 /* Pods-cpp-triangle-test-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9831E7408B8F19DD0B17E35DE5019890 /* Pods-cpp-triangle-test-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6978A17D6BD5C01E81848AFDC5AAA5FC /* SKAsyncGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 47F15BC2473B867646D89898B55158EB /* SKAsyncGLViewController.m */; };
+		70DFC3D538646E6C2581EFD88348BE23 /* SKAsyncGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BB6E79DD624F17E130885A39D95C3BB /* SKAsyncGLView.m */; };
+		76DFA581A9FE0FAD6E466143DB2E20AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF6C05A01AB2596C35C75D89F8613D /* Foundation.framework */; };
+		7947A93F9FB2C20B5F7957E181A401D4 /* RDRIntermediateTarget-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 04DBF4F042C82C632A59D2CE7EF23E13 /* RDRIntermediateTarget-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		834A8A6F67E61D56D225274FF41C529A /* SKAsyncGLView.h in Headers */ = {isa = PBXBuildFile; fileRef = 85AD034E6CD2AAEE8A8FE4CCE1CF2392 /* SKAsyncGLView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		941C3A703BA044691A4429F7A9C4553A /* SKAntialiasedAsyncGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2155CA54C19AD4F303C44214D4EDF9B0 /* SKAntialiasedAsyncGLViewController.m */; };
+		98E09297AB9BDE8A8B05F4F824857440 /* SKBaseAsyncGLViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3673FCD2A5D7BD7A4828F207BA39B877 /* SKBaseAsyncGLViewController.m */; };
+		9D4C98ED78B43CF7E546D911E1ADCEC2 /* SKAsyncGLViewController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CB69765DD472EEB9FEDDF580EC84B8E9 /* SKAsyncGLViewController-dummy.m */; };
+		9F65296B185FF8E2776CB5E9877E0652 /* RDRIntermediateTarget-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B885969284C28720A41DEF5324B85F24 /* RDRIntermediateTarget-dummy.m */; };
+		A1A8EF9EEE02B909E51124E03A4AA236 /* SKAntialiasedAsyncGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D42A26F4424B04E8E9557EFE524BE85C /* SKAntialiasedAsyncGLViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A1E9199EA8BBE322DA94C6FE57868DF8 /* SKAsyncGLViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 338479DB9DBA3FF48F34A82E3E021675 /* SKAsyncGLViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD8C36E447398CF8168D2CDBBFFD7C2A /* RDRIntermediateTarget.h in Headers */ = {isa = PBXBuildFile; fileRef = 164B76D26DCAE693A35FB9362EB0E851 /* RDRIntermediateTarget.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BE21795BF842A25D717346081A816A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21DF6C05A01AB2596C35C75D89F8613D /* Foundation.framework */; };
+		CBD45D87BFE0F925D4F4BB55D9340FB1 /* Pods-cpp-triangle-test-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1610B171BFF7BCB4657B709936CB3115 /* Pods-cpp-triangle-test-dummy.m */; };
+		E7A503CD330D008698875AFD4E0A5680 /* RDRIntermediateTarget.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C70FA449745433F233BACACF4E90ED2A /* RDRIntermediateTarget.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		139FA7CE0D4F1C245E52AD6ACEF2C719 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91BC0F3A5E51053D3A936B4B57CBCE74;
+			remoteInfo = SKAsyncGLViewController;
+		};
+		5DBC1D04F9D99112F5CE9E9639694B60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D992B6AED73538E4C80563F092873F7;
+			remoteInfo = RDRIntermediateTarget;
+		};
+		AF71DED9A982E9F9C99B36055C3E7B04 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D992B6AED73538E4C80563F092873F7;
+			remoteInfo = RDRIntermediateTarget;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		04DBF4F042C82C632A59D2CE7EF23E13 /* RDRIntermediateTarget-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDRIntermediateTarget-umbrella.h"; sourceTree = "<group>"; };
+		0DDDC187A23A6C70224672A77B971E0D /* SKAsyncGLViewController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SKAsyncGLViewController.framework; path = SKAsyncGLViewController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		114A2B3C0EE90E25BC19D9706386727B /* Pods-cpp-triangle-test.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cpp-triangle-test.release.xcconfig"; sourceTree = "<group>"; };
+		14C27A43C7DBCA99D17F8D43C469A112 /* Pods_cpp_triangle_test.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_cpp_triangle_test.framework; path = "Pods-cpp-triangle-test.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1610B171BFF7BCB4657B709936CB3115 /* Pods-cpp-triangle-test-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-cpp-triangle-test-dummy.m"; sourceTree = "<group>"; };
+		164B76D26DCAE693A35FB9362EB0E851 /* RDRIntermediateTarget.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = RDRIntermediateTarget.h; path = RDRIntermediateTarget/RDRIntermediateTarget.h; sourceTree = "<group>"; };
+		1BB6E79DD624F17E130885A39D95C3BB /* SKAsyncGLView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAsyncGLView.m; path = Classes/SKAsyncGLView.m; sourceTree = "<group>"; };
+		2155CA54C19AD4F303C44214D4EDF9B0 /* SKAntialiasedAsyncGLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAntialiasedAsyncGLViewController.m; path = Classes/SKAntialiasedAsyncGLViewController.m; sourceTree = "<group>"; };
+		21DF6C05A01AB2596C35C75D89F8613D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2FD38F5A15FEBD87BBB5DC804B41339D /* SKAsyncGLViewController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKAsyncGLViewController-prefix.pch"; sourceTree = "<group>"; };
+		31BD76F7FC59A6FF2AD9EC6571F7E73B /* RDRIntermediateTarget.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDRIntermediateTarget.release.xcconfig; sourceTree = "<group>"; };
+		338479DB9DBA3FF48F34A82E3E021675 /* SKAsyncGLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAsyncGLViewController.h; path = Classes/SKAsyncGLViewController.h; sourceTree = "<group>"; };
+		3673FCD2A5D7BD7A4828F207BA39B877 /* SKBaseAsyncGLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKBaseAsyncGLViewController.m; path = Classes/SKBaseAsyncGLViewController.m; sourceTree = "<group>"; };
+		3FF75FF0B86256C358E72B0C40C5B992 /* Pods-cpp-triangle-test.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-cpp-triangle-test.debug.xcconfig"; sourceTree = "<group>"; };
+		46CA4CD5669290D330557B195A1EE889 /* SKAsyncGLViewController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKAsyncGLViewController.debug.xcconfig; sourceTree = "<group>"; };
+		47F15BC2473B867646D89898B55158EB /* SKAsyncGLViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SKAsyncGLViewController.m; path = Classes/SKAsyncGLViewController.m; sourceTree = "<group>"; };
+		4901DB2EB48C21C0ABE6AFAD564C0449 /* RDRIntermediateTarget.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = RDRIntermediateTarget.m; path = RDRIntermediateTarget/RDRIntermediateTarget.m; sourceTree = "<group>"; };
+		5486E59463E545B87AC08475AC4AAEDC /* SKAsyncGLViewController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SKAsyncGLViewController-Info.plist"; sourceTree = "<group>"; };
+		6A6B4FC32CD4A6C92529AE922A18BA81 /* RDRIntermediateTarget.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = RDRIntermediateTarget.modulemap; sourceTree = "<group>"; };
+		84E19EB7B8E4B572CBA35104FF4A46F5 /* Pods-cpp-triangle-test-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cpp-triangle-test-acknowledgements.plist"; sourceTree = "<group>"; };
+		85AD034E6CD2AAEE8A8FE4CCE1CF2392 /* SKAsyncGLView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAsyncGLView.h; path = Classes/SKAsyncGLView.h; sourceTree = "<group>"; };
+		8645A279288EFC7FE850C93F10F1841A /* RDRIntermediateTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = RDRIntermediateTarget.framework; path = RDRIntermediateTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		884E0DF3FE742294C49316FF3AF373D3 /* SKAsyncGLViewController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SKAsyncGLViewController.release.xcconfig; sourceTree = "<group>"; };
+		970562647C0F9E0B34C21B85C760945B /* Pods-cpp-triangle-test-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-cpp-triangle-test-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9831E7408B8F19DD0B17E35DE5019890 /* Pods-cpp-triangle-test-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-cpp-triangle-test-umbrella.h"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A2228A0D453E2948B93DE14A23429368 /* Pods-cpp-triangle-test-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-cpp-triangle-test-frameworks.sh"; sourceTree = "<group>"; };
+		A49F6E6CE99E8B0B820037EC51466CEF /* Pods-cpp-triangle-test.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-cpp-triangle-test.modulemap"; sourceTree = "<group>"; };
+		A503C0C6D0D74B7F2E1B22D535A2E810 /* RDRIntermediateTarget.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = RDRIntermediateTarget.debug.xcconfig; sourceTree = "<group>"; };
+		A75CC62B4B5F856678137022C2CDE801 /* RDRIntermediateTarget-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "RDRIntermediateTarget-Info.plist"; sourceTree = "<group>"; };
+		B885969284C28720A41DEF5324B85F24 /* RDRIntermediateTarget-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "RDRIntermediateTarget-dummy.m"; sourceTree = "<group>"; };
+		C70FA449745433F233BACACF4E90ED2A /* RDRIntermediateTarget.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RDRIntermediateTarget.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB69765DD472EEB9FEDDF580EC84B8E9 /* SKAsyncGLViewController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SKAsyncGLViewController-dummy.m"; sourceTree = "<group>"; };
+		D42A26F4424B04E8E9557EFE524BE85C /* SKAntialiasedAsyncGLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKAntialiasedAsyncGLViewController.h; path = Classes/SKAntialiasedAsyncGLViewController.h; sourceTree = "<group>"; };
+		D6291FE317EDD8CCA7101AD5CD3D591B /* SKBaseAsyncGLViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SKBaseAsyncGLViewController.h; path = Classes/SKBaseAsyncGLViewController.h; sourceTree = "<group>"; };
+		D843C4BBEFD8905ADC8AA78836ED482C /* Pods-cpp-triangle-test-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-cpp-triangle-test-Info.plist"; sourceTree = "<group>"; };
+		DB92B360A812626515265548B1C539FA /* SKAsyncGLViewController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SKAsyncGLViewController-umbrella.h"; sourceTree = "<group>"; };
+		E99808D503F814B2D54E367AFECC9AA3 /* SKAsyncGLViewController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SKAsyncGLViewController.modulemap; sourceTree = "<group>"; };
+		F70C38B10DCD6CEEF9F528332C0F7950 /* RDRIntermediateTarget-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "RDRIntermediateTarget-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3A97A1B59D51F1D564ECC4274FAD0CA3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				262FBBE7E87E439A0B8DAA9E8692DB97 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FA95255DB1CF931FDB4C0A5529FDD311 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE21795BF842A25D717346081A816A66 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC21A9FE10E2E33D35F5D2BC50055C45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76DFA581A9FE0FAD6E466143DB2E20AE /* Foundation.framework in Frameworks */,
+				E7A503CD330D008698875AFD4E0A5680 /* RDRIntermediateTarget.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		19783DFAFF61E2DA563C671D5C6FE67F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14C27A43C7DBCA99D17F8D43C469A112 /* Pods_cpp_triangle_test.framework */,
+				8645A279288EFC7FE850C93F10F1841A /* RDRIntermediateTarget.framework */,
+				0DDDC187A23A6C70224672A77B971E0D /* SKAsyncGLViewController.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3A1F3C74BAAD81F1BDAB0E9E2B08F9DD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6A6B4FC32CD4A6C92529AE922A18BA81 /* RDRIntermediateTarget.modulemap */,
+				B885969284C28720A41DEF5324B85F24 /* RDRIntermediateTarget-dummy.m */,
+				A75CC62B4B5F856678137022C2CDE801 /* RDRIntermediateTarget-Info.plist */,
+				F70C38B10DCD6CEEF9F528332C0F7950 /* RDRIntermediateTarget-prefix.pch */,
+				04DBF4F042C82C632A59D2CE7EF23E13 /* RDRIntermediateTarget-umbrella.h */,
+				A503C0C6D0D74B7F2E1B22D535A2E810 /* RDRIntermediateTarget.debug.xcconfig */,
+				31BD76F7FC59A6FF2AD9EC6571F7E73B /* RDRIntermediateTarget.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/RDRIntermediateTarget";
+			sourceTree = "<group>";
+		};
+		4AAFBB11EFC0A84B0071911253C7FED3 /* RDRIntermediateTarget */ = {
+			isa = PBXGroup;
+			children = (
+				164B76D26DCAE693A35FB9362EB0E851 /* RDRIntermediateTarget.h */,
+				4901DB2EB48C21C0ABE6AFAD564C0449 /* RDRIntermediateTarget.m */,
+				3A1F3C74BAAD81F1BDAB0E9E2B08F9DD /* Support Files */,
+			);
+			name = RDRIntermediateTarget;
+			path = RDRIntermediateTarget;
+			sourceTree = "<group>";
+		};
+		4B4DCF051B2D159A4C7CDB412EAE991C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C436A081C0B12CD4AD4CD06C2F719F5A /* Pods-cpp-triangle-test */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		6D850F8C4EB0F536EAFDAEC34577B914 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				21DF6C05A01AB2596C35C75D89F8613D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		74D87B202CDFBAFA01662A02A82CD758 /* SKAsyncGLViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D42A26F4424B04E8E9557EFE524BE85C /* SKAntialiasedAsyncGLViewController.h */,
+				2155CA54C19AD4F303C44214D4EDF9B0 /* SKAntialiasedAsyncGLViewController.m */,
+				85AD034E6CD2AAEE8A8FE4CCE1CF2392 /* SKAsyncGLView.h */,
+				1BB6E79DD624F17E130885A39D95C3BB /* SKAsyncGLView.m */,
+				338479DB9DBA3FF48F34A82E3E021675 /* SKAsyncGLViewController.h */,
+				47F15BC2473B867646D89898B55158EB /* SKAsyncGLViewController.m */,
+				D6291FE317EDD8CCA7101AD5CD3D591B /* SKBaseAsyncGLViewController.h */,
+				3673FCD2A5D7BD7A4828F207BA39B877 /* SKBaseAsyncGLViewController.m */,
+				8E5ADDDC322DB4A4D27990957786554E /* Support Files */,
+			);
+			name = SKAsyncGLViewController;
+			path = SKAsyncGLViewController;
+			sourceTree = "<group>";
+		};
+		8E5ADDDC322DB4A4D27990957786554E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E99808D503F814B2D54E367AFECC9AA3 /* SKAsyncGLViewController.modulemap */,
+				CB69765DD472EEB9FEDDF580EC84B8E9 /* SKAsyncGLViewController-dummy.m */,
+				5486E59463E545B87AC08475AC4AAEDC /* SKAsyncGLViewController-Info.plist */,
+				2FD38F5A15FEBD87BBB5DC804B41339D /* SKAsyncGLViewController-prefix.pch */,
+				DB92B360A812626515265548B1C539FA /* SKAsyncGLViewController-umbrella.h */,
+				46CA4CD5669290D330557B195A1EE889 /* SKAsyncGLViewController.debug.xcconfig */,
+				884E0DF3FE742294C49316FF3AF373D3 /* SKAsyncGLViewController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SKAsyncGLViewController";
+			sourceTree = "<group>";
+		};
+		C13A504B8CC902FE93FF4C6E7D3C080A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C70FA449745433F233BACACF4E90ED2A /* RDRIntermediateTarget.framework */,
+				6D850F8C4EB0F536EAFDAEC34577B914 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C436A081C0B12CD4AD4CD06C2F719F5A /* Pods-cpp-triangle-test */ = {
+			isa = PBXGroup;
+			children = (
+				A49F6E6CE99E8B0B820037EC51466CEF /* Pods-cpp-triangle-test.modulemap */,
+				970562647C0F9E0B34C21B85C760945B /* Pods-cpp-triangle-test-acknowledgements.markdown */,
+				84E19EB7B8E4B572CBA35104FF4A46F5 /* Pods-cpp-triangle-test-acknowledgements.plist */,
+				1610B171BFF7BCB4657B709936CB3115 /* Pods-cpp-triangle-test-dummy.m */,
+				A2228A0D453E2948B93DE14A23429368 /* Pods-cpp-triangle-test-frameworks.sh */,
+				D843C4BBEFD8905ADC8AA78836ED482C /* Pods-cpp-triangle-test-Info.plist */,
+				9831E7408B8F19DD0B17E35DE5019890 /* Pods-cpp-triangle-test-umbrella.h */,
+				3FF75FF0B86256C358E72B0C40C5B992 /* Pods-cpp-triangle-test.debug.xcconfig */,
+				114A2B3C0EE90E25BC19D9706386727B /* Pods-cpp-triangle-test.release.xcconfig */,
+			);
+			name = "Pods-cpp-triangle-test";
+			path = "Target Support Files/Pods-cpp-triangle-test";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				C13A504B8CC902FE93FF4C6E7D3C080A /* Frameworks */,
+				ECC0BD4CC25F32182FC57685FA675971 /* Pods */,
+				19783DFAFF61E2DA563C671D5C6FE67F /* Products */,
+				4B4DCF051B2D159A4C7CDB412EAE991C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		ECC0BD4CC25F32182FC57685FA675971 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4AAFBB11EFC0A84B0071911253C7FED3 /* RDRIntermediateTarget */,
+				74D87B202CDFBAFA01662A02A82CD758 /* SKAsyncGLViewController */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		28DF9730C6CBE93CE2AD7BFC9E6271D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1A8EF9EEE02B909E51124E03A4AA236 /* SKAntialiasedAsyncGLViewController.h in Headers */,
+				834A8A6F67E61D56D225274FF41C529A /* SKAsyncGLView.h in Headers */,
+				17B6B0A020AD6152AC0DEB18B76C53A7 /* SKAsyncGLViewController-umbrella.h in Headers */,
+				A1E9199EA8BBE322DA94C6FE57868DF8 /* SKAsyncGLViewController.h in Headers */,
+				36BBA81021BAB79F9B4267E1B556CC74 /* SKBaseAsyncGLViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9D6DC291589C946AAF67B87800A69662 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7947A93F9FB2C20B5F7957E181A401D4 /* RDRIntermediateTarget-umbrella.h in Headers */,
+				AD8C36E447398CF8168D2CDBBFFD7C2A /* RDRIntermediateTarget.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DBAA7ABE9F3CF83ADDA1DA315ABDC6D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3E133688BA37FCDE679E98A11E3F4D54 /* Pods-cpp-triangle-test-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F9E3F1CB845D8F30FFA4C90DA6EBB55 /* Pods-cpp-triangle-test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9C1ABB5EC40F438FD40599E644D00810 /* Build configuration list for PBXNativeTarget "Pods-cpp-triangle-test" */;
+			buildPhases = (
+				DBAA7ABE9F3CF83ADDA1DA315ABDC6D0 /* Headers */,
+				2361145F77432A295078F44FA2726C67 /* Sources */,
+				FA95255DB1CF931FDB4C0A5529FDD311 /* Frameworks */,
+				4483C992293CFF07F181A43F707CBE91 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A549BCB9F0D585CA2B94AFF2692F78C4 /* PBXTargetDependency */,
+				EE028F4DAB47466A7738B267FEB1DF4F /* PBXTargetDependency */,
+			);
+			name = "Pods-cpp-triangle-test";
+			productName = "Pods-cpp-triangle-test";
+			productReference = 14C27A43C7DBCA99D17F8D43C469A112 /* Pods_cpp_triangle_test.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3D992B6AED73538E4C80563F092873F7 /* RDRIntermediateTarget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BC268DEAB0770EF65C2599A62B8B4D /* Build configuration list for PBXNativeTarget "RDRIntermediateTarget" */;
+			buildPhases = (
+				9D6DC291589C946AAF67B87800A69662 /* Headers */,
+				24D217D7A6EA8560810B40568A1894CC /* Sources */,
+				3A97A1B59D51F1D564ECC4274FAD0CA3 /* Frameworks */,
+				A21B6D41F1195E5AFE4B61660F9650ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RDRIntermediateTarget;
+			productName = RDRIntermediateTarget;
+			productReference = 8645A279288EFC7FE850C93F10F1841A /* RDRIntermediateTarget.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		91BC0F3A5E51053D3A936B4B57CBCE74 /* SKAsyncGLViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 813AAE3A210DDCF5F40F416089AEC4ED /* Build configuration list for PBXNativeTarget "SKAsyncGLViewController" */;
+			buildPhases = (
+				28DF9730C6CBE93CE2AD7BFC9E6271D0 /* Headers */,
+				C56057B3CB056C967FCFE74F9A9403DC /* Sources */,
+				FC21A9FE10E2E33D35F5D2BC50055C45 /* Frameworks */,
+				5DCBF5F42F3B2DC37DA46804BEECD186 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A17B2A3F252BCBB2BE0005B571CF3213 /* PBXTargetDependency */,
+			);
+			name = SKAsyncGLViewController;
+			productName = SKAsyncGLViewController;
+			productReference = 0DDDC187A23A6C70224672A77B971E0D /* SKAsyncGLViewController.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 19783DFAFF61E2DA563C671D5C6FE67F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F9E3F1CB845D8F30FFA4C90DA6EBB55 /* Pods-cpp-triangle-test */,
+				3D992B6AED73538E4C80563F092873F7 /* RDRIntermediateTarget */,
+				91BC0F3A5E51053D3A936B4B57CBCE74 /* SKAsyncGLViewController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4483C992293CFF07F181A43F707CBE91 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DCBF5F42F3B2DC37DA46804BEECD186 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A21B6D41F1195E5AFE4B61660F9650ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2361145F77432A295078F44FA2726C67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD45D87BFE0F925D4F4BB55D9340FB1 /* Pods-cpp-triangle-test-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24D217D7A6EA8560810B40568A1894CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F65296B185FF8E2776CB5E9877E0652 /* RDRIntermediateTarget-dummy.m in Sources */,
+				0D273C1DFE54A67329293AEEBDFC8FB1 /* RDRIntermediateTarget.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C56057B3CB056C967FCFE74F9A9403DC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				941C3A703BA044691A4429F7A9C4553A /* SKAntialiasedAsyncGLViewController.m in Sources */,
+				70DFC3D538646E6C2581EFD88348BE23 /* SKAsyncGLView.m in Sources */,
+				9D4C98ED78B43CF7E546D911E1ADCEC2 /* SKAsyncGLViewController-dummy.m in Sources */,
+				6978A17D6BD5C01E81848AFDC5AAA5FC /* SKAsyncGLViewController.m in Sources */,
+				98E09297AB9BDE8A8B05F4F824857440 /* SKBaseAsyncGLViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A17B2A3F252BCBB2BE0005B571CF3213 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RDRIntermediateTarget;
+			target = 3D992B6AED73538E4C80563F092873F7 /* RDRIntermediateTarget */;
+			targetProxy = AF71DED9A982E9F9C99B36055C3E7B04 /* PBXContainerItemProxy */;
+		};
+		A549BCB9F0D585CA2B94AFF2692F78C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = RDRIntermediateTarget;
+			target = 3D992B6AED73538E4C80563F092873F7 /* RDRIntermediateTarget */;
+			targetProxy = 5DBC1D04F9D99112F5CE9E9639694B60 /* PBXContainerItemProxy */;
+		};
+		EE028F4DAB47466A7738B267FEB1DF4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SKAsyncGLViewController;
+			target = 91BC0F3A5E51053D3A936B4B57CBCE74 /* SKAsyncGLViewController */;
+			targetProxy = 139FA7CE0D4F1C245E52AD6ACEF2C719 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1E1B5EA40CDEF69D40A40630743A10EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A503C0C6D0D74B7F2E1B22D535A2E810 /* RDRIntermediateTarget.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RDRIntermediateTarget/RDRIntermediateTarget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RDRIntermediateTarget/RDRIntermediateTarget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RDRIntermediateTarget/RDRIntermediateTarget.modulemap";
+				PRODUCT_MODULE_NAME = RDRIntermediateTarget;
+				PRODUCT_NAME = RDRIntermediateTarget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5147A7C33D3A94E4322601344068346E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 46CA4CD5669290D330557B195A1EE889 /* SKAsyncGLViewController.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKAsyncGLViewController/SKAsyncGLViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKAsyncGLViewController/SKAsyncGLViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKAsyncGLViewController/SKAsyncGLViewController.modulemap";
+				PRODUCT_MODULE_NAME = SKAsyncGLViewController;
+				PRODUCT_NAME = SKAsyncGLViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		71243899B61152433AAE34EE86456EE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		75D70EEEA0A456E14F7338A7F342964E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		76B5394AE75FCBA03F4214B3F0EDCEED /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 31BD76F7FC59A6FF2AD9EC6571F7E73B /* RDRIntermediateTarget.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/RDRIntermediateTarget/RDRIntermediateTarget-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/RDRIntermediateTarget/RDRIntermediateTarget-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/RDRIntermediateTarget/RDRIntermediateTarget.modulemap";
+				PRODUCT_MODULE_NAME = RDRIntermediateTarget;
+				PRODUCT_NAME = RDRIntermediateTarget;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A097E809CF1165156753617B6C784F56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 884E0DF3FE742294C49316FF3AF373D3 /* SKAsyncGLViewController.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SKAsyncGLViewController/SKAsyncGLViewController-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SKAsyncGLViewController/SKAsyncGLViewController-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SKAsyncGLViewController/SKAsyncGLViewController.modulemap";
+				PRODUCT_MODULE_NAME = SKAsyncGLViewController;
+				PRODUCT_NAME = SKAsyncGLViewController;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B1C11DFECF5C11CC9A730394A7F4C634 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 114A2B3C0EE90E25BC19D9706386727B /* Pods-cpp-triangle-test.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cpp-triangle-test/Pods-cpp-triangle-test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cpp-triangle-test/Pods-cpp-triangle-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D9A3FC753E163678F3726658F7C94F08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3FF75FF0B86256C358E72B0C40C5B992 /* Pods-cpp-triangle-test.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-cpp-triangle-test/Pods-cpp-triangle-test-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-cpp-triangle-test/Pods-cpp-triangle-test.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75D70EEEA0A456E14F7338A7F342964E /* Debug */,
+				71243899B61152433AAE34EE86456EE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		813AAE3A210DDCF5F40F416089AEC4ED /* Build configuration list for PBXNativeTarget "SKAsyncGLViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5147A7C33D3A94E4322601344068346E /* Debug */,
+				A097E809CF1165156753617B6C784F56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BC268DEAB0770EF65C2599A62B8B4D /* Build configuration list for PBXNativeTarget "RDRIntermediateTarget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E1B5EA40CDEF69D40A40630743A10EB /* Debug */,
+				76B5394AE75FCBA03F4214B3F0EDCEED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9C1ABB5EC40F438FD40599E644D00810 /* Build configuration list for PBXNativeTarget "Pods-cpp-triangle-test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A3FC753E163678F3726658F7C94F08 /* Debug */,
+				B1C11DFECF5C11CC9A730394A7F4C634 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

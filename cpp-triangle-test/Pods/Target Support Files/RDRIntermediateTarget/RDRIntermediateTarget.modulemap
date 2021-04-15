@@ -1,0 +1,6 @@
+framework module RDRIntermediateTarget {
+  umbrella header "RDRIntermediateTarget-umbrella.h"
+
+  export *
+  module * { export * }
+}

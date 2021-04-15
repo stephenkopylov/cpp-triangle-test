@@ -1,0 +1,20 @@
+PODS:
+  - RDRIntermediateTarget (0.0.1)
+  - SKAsyncGLViewController (1.0.4):
+    - RDRIntermediateTarget
+
+DEPENDENCIES:
+  - SKAsyncGLViewController
+
+SPEC REPOS:
+  trunk:
+    - RDRIntermediateTarget
+    - SKAsyncGLViewController
+
+SPEC CHECKSUMS:
+  RDRIntermediateTarget: 745364d1a90a3635431775b88d69d1207aaeaa6f
+  SKAsyncGLViewController: 051a08470f81db32cd3a3fbd9af1c6c4e54b67de
+
+PODFILE CHECKSUM: f4b3b5c9e966fccc40bc2ef55f753337c69cf50a
+
+COCOAPODS: 1.10.1
