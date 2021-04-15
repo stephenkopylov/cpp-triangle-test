@@ -20,7 +20,7 @@
 	if(!_triangle){
 		_triangle = new Triangle();
 	}
-	_triangle->draw(rect.size.width, rect.size.height, [UIScreen mainScreen].scale);
+	_triangle->draw(rect.size.width, rect.size.height, [UIScreen mainScreen].scale, 20);
 }
 
 @end

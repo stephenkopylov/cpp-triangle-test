@@ -22,10 +22,11 @@
 
 class Triangle{
 public:
-	void draw(float w, float h, float scale);
+	void draw(float w, float h, float scale, float angle);
 private:
 	bool nanovgInitialized = false;
 	NVGcontext* vg;
+	double degreesToRadians(double degree);
 };
 
 #endif /* Triangle_hpp */
