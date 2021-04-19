@@ -9,6 +9,7 @@
 #define Triangle_hpp
 
 #include <stdio.h>
+#include <functional>
 
 #define NANOVG_GLES2_IMPLEMENTATION
 
@@ -21,9 +22,12 @@
 #include "nvg/nanovg.h"
 
 class Triangle{
+	typedef std::function<void(float)> RadCallback;
 public:
 	void draw(float w, float h, float scale, float angle);
+	void setRadCallback(RadCallback radCallback);
 private:
+	RadCallback radCallback = nullptr;
 	bool nanovgInitialized = false;
 	NVGcontext* vg;
 	double degreesToRadians(double degree);

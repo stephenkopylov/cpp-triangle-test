@@ -44,6 +44,14 @@ void Triangle::draw(float w, float h, float scale, float angle){
 	nvgEndFrame(vg);
 	
 	nvgRestore(vg);
+	
+	if(radCallback){
+		radCallback(degreesToRadians(angle));
+	}
+}
+
+void Triangle::setRadCallback(RadCallback cRadCallback){
+	radCallback = cRadCallback;
 }
 
 double Triangle::degreesToRadians(double degree)
