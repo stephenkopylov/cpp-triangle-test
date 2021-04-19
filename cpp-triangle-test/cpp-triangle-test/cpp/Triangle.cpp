@@ -12,7 +12,18 @@
 #define TRIANGLE_HEIGHT 100
 #define TRIANGLE_WIDTH 120
 
+void Triangle::prepareToDraw()
+{
+	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
+	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT | GL_STENCIL_BUFFER_BIT);
+	glEnable(GL_BLEND);
+	glBlendFunc(GL_DST_ALPHA, GL_ONE_MINUS_SRC_ALPHA);
+	glEnable(GL_CULL_FACE);
+	glDisable(GL_DEPTH_TEST);
+}
+
 void Triangle::draw(float w, float h, float scale, float angle){
+	prepareToDraw();
 	if(!nanovgInitialized){
 		vg = nvgCreateGLES2(NVG_ANTIALIAS | NVG_STENCIL_STROKES);
 		nanovgInitialized = true;

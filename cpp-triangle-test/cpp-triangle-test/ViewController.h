@@ -5,10 +5,9 @@
 //  Created by Stepan Kopylov on 15/04/2021.
 //
 
-#import <SKAsyncGLViewController.h>
+#import <UIKit/UIKit.h>
 
-@interface ViewController : SKAsyncGLViewController
-
+@interface ViewController : UIViewController
 
 @end
 

@@ -31,6 +31,7 @@ private:
 	bool nanovgInitialized = false;
 	NVGcontext* vg;
 	double degreesToRadians(double degree);
+	void prepareToDraw();
 };
 
 #endif /* Triangle_hpp */
