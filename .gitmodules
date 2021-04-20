@@ -1,0 +1,3 @@
+[submodule "cpp-triangle-test/cpp-triangle-test/cpp"]
+	path = cpp-triangle-test/cpp-triangle-test/cpp
+	url = git@github.com:ibitcy/cpp-triangle.git
